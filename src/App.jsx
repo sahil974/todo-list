@@ -11,7 +11,7 @@ const App = () => {
     const [items, setItems] = useState([]);
 
     function changeHandler(event) {
-        const { name, value } = event.target;
+        const value = event.target.value;
 
 
 
